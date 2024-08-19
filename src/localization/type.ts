@@ -61,6 +61,7 @@ export interface Settings {
     share_vpn_desc: string;
     dns: string;
     dns_desc: string;
+    dns_error: string;
     ip_data: string;
     ip_data_desc: string;
     data_usage: string;
@@ -151,6 +152,7 @@ export interface Log {
     error_configuration_not_supported: string;
     error_configuring_proxy: (value: string) => string;
     error_wp_not_found: string;
+    error_wp_stopped: string;
     error_connection_failed: string;
 }
 

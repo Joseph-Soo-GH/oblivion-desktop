@@ -61,6 +61,7 @@ const english: Language = {
         share_vpn_desc: 'Share a proxy on the network',
         dns: 'DNS',
         dns_desc: 'Block ads & adult content',
+        dns_error: 'It is applicable to the Warp & Gool methods',
         ip_data: 'IP Check',
         ip_data_desc: 'Display IP & location after connection',
         data_usage: 'Data Usage',
@@ -152,6 +153,7 @@ const english: Language = {
             'Proxy configuration is not supported in your operating system, but you can use Warp Proxy manually.',
         error_configuring_proxy: (value) => `Error configuring proxy for ${value}!`,
         error_wp_not_found: 'The warp-plus file is not located alongside the application package!',
+        error_wp_stopped: 'The warp-plus file has encountered an issue running!',
         error_connection_failed: 'Connection to 1.1.1.1 was not possible.',
         error_country_failed: 'Cannot connect to the selected country.'
     },

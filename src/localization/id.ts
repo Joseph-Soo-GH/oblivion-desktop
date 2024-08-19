@@ -61,6 +61,7 @@ const indonesia: Language = {
         share_vpn_desc: 'Bagikan proxy di jaringan',
         dns: 'DNS',
         dns_desc: 'Blokir iklan & konten dewasa',
+        dns_error: 'Ini berlaku untuk metode Warp dan Gool',
         ip_data: 'Cek IP',
         ip_data_desc: 'Tampilkan IP & Lokasi setelah koneksi',
         data_usage: 'Penggunaan Data',
@@ -149,6 +150,7 @@ const indonesia: Language = {
             'Konfigurasi proxy tidak didukung pada sistem operasi Anda, tetapi Anda dapat menggunakan Warp Proxy secara manual.',
         error_configuring_proxy: (value) => `Kesalahan mengkonfigurasi proxy untuk ${value}!`,
         error_wp_not_found: 'File warp-plus tidak terletak di samping paket aplikasi!',
+        error_wp_stopped: 'File warp-plus mengalami masalah saat dijalankan!',
         error_connection_failed: 'Koneksi ke 1.1.1.1 tidak berhasil.',
         error_country_failed: 'Tidak dapat terhubung ke negara yang dipilih.'
     },

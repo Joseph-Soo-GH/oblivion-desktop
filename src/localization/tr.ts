@@ -61,6 +61,7 @@ const turkish: Language = {
         share_vpn_desc: 'Ağda proxy paylaşımı',
         dns: 'DNS',
         dns_desc: 'Reklamları ve yetişkin içeriklerini engelle',
+        dns_error: 'Warp ve Gool yöntemlerine uygulanabilir',
         ip_data: 'IP Kontrolü',
         ip_data_desc: 'Bağlantı sonrası IP ve konumu göster',
         data_usage: 'Veri Kullanımı',
@@ -151,6 +152,7 @@ const turkish: Language = {
             'Proxy yapılandırması işletim sisteminizde desteklenmiyor, ancak manuel olarak Warp Proxy kullanabilirsiniz.',
         error_configuring_proxy: (value) => `${value} için proxy yapılandırılırken hata oluştu!`,
         error_wp_not_found: 'Warp-plus dosyası uygulama paketiyle birlikte yer almıyor!',
+        error_wp_stopped: 'warp-plus dosyası çalışırken bir sorunla karşılaştı!',
         error_connection_failed: '1.1.1.1 ile bağlantı sağlanamadı.',
         error_country_failed: 'Seçilen ülkeye bağlanılamıyor.'
     },

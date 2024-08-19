@@ -61,6 +61,7 @@ const chinese: Language = {
         share_vpn_desc: '在局域网上共享代理',
         dns: 'DNS',
         dns_desc: '屏蔽广告和成人内容',
+        dns_error: '适用于 Warp 和 Gool 方法',
         ip_data: '解析目标地址',
         ip_data_desc: '连接后显示 IP 和位置',
         data_usage: '数据使用量',
@@ -150,6 +151,7 @@ const chinese: Language = {
             '您的操作系统不支持代理配置，但您可以手动使用 Warp 代理。',
         error_configuring_proxy: (value) => `为 ${value} 配置代理时出错！`,
         error_wp_not_found: 'warp-plus 文件不在应用程序包旁边。',
+        error_wp_stopped: 'warp-plus 文件在运行时遇到了问题！',
         error_connection_failed: '无法连接到1.1.1.1。',
         error_country_failed: '无法连接到所选国家.'
     },
